@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d8d4ca;
+}
+
+/* header and begging of page/nav bar */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #001a27;
+    color: #ffffff;
+    text-align: left;
+}
+
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .Nigro {
+    color: #666666;
+}
+
+.nav-bar {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    display: inline;
+}
+
+
+.header ul {
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    margin-top: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    display: flex;
+    list-style-type: none;
+    color: aqua;
+}
+
+.header ul li {
+    margin-left: 25px
+}
+
+/* body and its sections below this point */
+.main-page {
+    margin-bottom: 20px;
+    margin-left: 25px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-color: #0072bb; */
+    /* color: #200000; */
+}
+
+.about-me {
+    /* margin-bottom: 32px; */
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-top: 90px;
+    padding: 20px;
+    height: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #011827;
+    color: #ffffff;
+}
+
+.work {
+    /* margin-bottom: 32px; */
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-top: 90px;
+    padding: 20px;
+    height: 700px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #011827;
+    color: #ffffff;
+}
+
+.contact-me {
+    /* margin-bottom: 32px; */
+    margin-bottom: 50px;
+    margin-left: 25px;
+    margin-top: 90px;
+    padding: 10px;
+    height: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #011827;
+    color: #ffffff;
+}
+
+
+.horiseon-screenshot-img {
+    max-height: 250px;
+    /* padding: 20px;
+    margin: 20px; */
+}
+
+.second-project-container {
+    margin-top: -198px;
+    margin-left: 900px;
+    margin-bottom: 294px;
+}
+
+.second-project-img {
+    max-height: 250px;
+    /* padding: 20px;
+    margin: 20px; */
+}
+
+/* below this point i am trying to make h3 show over my horiseon img */
+
+
+.work h3 {
+    display: block;
+}
+
+/* this changes "horiseon project" when hovering */
+/* .work h3:hover{
+    color: #00131d;
+} */
+
+/* this adds shadow behing horiseon project image */
+button:hover {
+    box-shadow: 0 0 5px 5px #888;
+}
+
+button:hover h3 {
+    display: block
+}
+
+
+button:active {
+    font-size: 180%;
+    box-shadow: 0 0 10px #000 inset;
+}
+
+
+button:focus {
+    outline: none;
+    border-color: #8ac4ff;
+}
+
+#horiseon {
+    display: block;
+    margin: 12px 95px;
+    width: 981px;
+    height: 180px;
+}
+
+.horiseon-project-overlay {
+    position: absolute;
+    margin-top: 111px;
+    margin-left: 231px;
+
+}
+
+.horiseon-project-overlay {
+    position: absolute;
+    margin-top: 111px;
+    margin-left: 231px;
+
+}
