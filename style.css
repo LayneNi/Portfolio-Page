@@ -86,8 +86,17 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-left: 6px solid #011827;
     height: 250px;
+    color: #ffffff;
+}
+
+* h2{
     color: #011827;
 }
+
+* p{
+    /* background-color: #000e1d; */
+    color: rgb(0, 0, 0);
+} 
 
 .work {
     /* margin-bottom: 32px; */
@@ -122,7 +131,7 @@ body {
     /* padding: 20px;
     margin: 20px; */
 }
-
+/* second project */
 .second-project-container {
     margin-top: -198px;
     margin-left: 900px;
@@ -134,6 +143,33 @@ body {
     /* padding: 20px;
     margin: 20px; */
 }
+/* third project */
+.third-project-container {
+    margin-top: -198px;
+    margin-left: 900px;
+    margin-bottom: 294px;
+}
+
+.third-project-img {
+    max-height: 250px;
+    /* padding: 20px;
+    margin: 20px; */
+}
+
+/* fourth project */
+.fourth-project-container {
+    margin-top: -198px;
+    margin-left: 900px;
+    margin-bottom: 294px;
+}
+
+.fourth-project-img {
+    height: 250px;
+    width: 375px;
+    /* padding: 20px;
+    margin: 20px; */
+}
+
 
 /* below this point i am trying to make h3 show over my horiseon img */
 
@@ -175,7 +211,7 @@ button:focus {
     width: 981px;
     height: 180px;
 }
-
+/* project overlays */
 .horiseon-project-overlay {
     position: absolute;
     margin-top: 111px;
@@ -183,15 +219,41 @@ button:focus {
 
 }
 
-.horiseon-project-overlay {
+.second-project-overlay {
     position: absolute;
     margin-top: 111px;
     margin-left: 231px;
 }
 
+.third-project-overlay {
+    position: absolute;
+    margin-top: 111px;
+    margin-left: 231px;
+}
 
+.fourth-project-overlay {
+    position: absolute;
+    margin-top: 111px;
+    margin-left: 231px;
+}
 
+.footer{
+    /* margin-bottom: 32px; */
+        margin-bottom: 50px;
+        margin-left: 255px;
+        margin-top: 90px;
+        padding: 10px;
+        height: 100px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        /* background-color: #011827; */
+        border-left: 6px solid #011827;
+        height: 150px;
+        color: #011827;
+}
 
+.contact-me ul{
+    display: flex
+}
 /* below this point is the media screen deoms from class */
 /*
 @media screen and (max-width: 992px) {
