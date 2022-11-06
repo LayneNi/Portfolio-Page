@@ -125,9 +125,14 @@ body {
     color: #011827;
 }
 
+.horiseon-project-container {
+    margin-left: 115px;
+}
 
 .horiseon-screenshot-img {
     max-height: 250px;
+    width: 426px;
+    height: 250px;
     /* padding: 20px;
     margin: 20px; */
 }
@@ -140,6 +145,8 @@ body {
 
 .second-project-img {
     max-height: 250px;
+    width: 426;
+    height: 250px;
     /* padding: 20px;
     margin: 20px; */
 }
@@ -158,8 +165,8 @@ body {
 
 /* fourth project */
 .fourth-project-container {
-    margin-top: -198px;
-    margin-left: 900px;
+    margin-top: -547px;
+    margin-left: 237px;
     margin-bottom: 294px;
 }
 
