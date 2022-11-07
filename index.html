@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,111 +10,132 @@
 </head>
 
 <!-- here i start my nav bar -->
-<body>  
- <main>
- <header>
-    <section class="header">
-    <section><img src="./assets/IMG-9231.JPG" class="header-image" alt="header image">
-    </section>
-      <h1>Layne <span class="Nigro">Nigro</span></h1>
-             <ul>
-                <li>
-                  <a href="#about-me-content">About Me</a>
-                 </li>
-                <li>
-                    <a href="#work-content">Work</a>
-                 </li>
-                 <li>
-                    <a href="#contact-me-content">Contact Me</a>
-                 </li>
-                <li>
-                    <a href="http://linkedin.com">LinkedIn</a>
-                </li>
-             </ul>
-    </section>
-    <section><img src="./assets/banner-1036483.jpg" class="header-bottom" alt="pattern>">
-        <section class="header-img-overlay"><h1>Cool Quote</h1></section>
-    </section>
- </header>
- <!-- main part of page including content sections -->
-<section class="Main-Page">
 
-    <section id=about-me-content class="about-me">
-        <img src="" class="float-left" alt=""/>
-        <h2>About Me</h2>
-        <p>
-           paragraph
-        </p>
-    </section>
+<body>
+    <main>
+        <header>
+            <section class="header">
+                <section><img src="./assets/IMG-9231.JPG" class="header-image" alt="header image">
+                </section>
+                <h1>Layne <span class="Nigro">Nigro</span></h1>
+                <ul>
+                    <li>
+                        <a href="#about-me-content">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#work-content">Work</a>
+                    </li>
+                    <li>
+                        <a href="#contact-me-content">Contact Me</a>
+                    </li>
+                    <li>
+                        <a href="http://linkedin.com">LinkedIn</a>
+                    </li>
+                </ul>
+            </section>
+            <section><img src="./assets/banner-1036483.jpg" class="header-bottom" alt="pattern>">
+                <section class="header-img-overlay">
+                    <h1>Cool Quote</h1>
+                </section>
+            </section>
+        </header>
+        <!-- main part of page including content sections -->
+        <section class="Main-Page">
 
-<section id=work-content class="work">
-        <h2>Work</h2>
+            <section id=about-me-content class="about-me">
+                <img src="" class="float-left" alt="" />
+                <h2>About Me</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum
+                </p>
+            </section>
 
-        <!-- below this point i was h3 to overlap image and i want the image to act as a button linked to my horiseon repo -->
-<section class="horiseon-project-container">
-     <section
-        class="horiseon-project-overlay"><h3>Horiseon Project</h3>
-     </section>     
-<section id=horiseon class="horiseon"> 
-        <button><a href="https://github.com/LayneNi/Horiseon" id="Horiseon"><img src="./assets/Horiseon screenshot.png" class="horiseon-screenshot-img" alt="horiseon-screenshot-img"/></a></button>
-</section>
-</section>
-        <!-- second project square here -->
-<section class="second-project-container">
-    <section
-        class="second-project-overlay"><h3>Second Project</h3>
-    </section>
-        <section id=second-project class="second-project">
-            <button><a href="https://www.google.com/" id="second-project"><img src="./assets/pexels-matt-hardy-1533720.jpg" class="second-project-img" alt="second-project-img"/></a></button>
-       </section> 
-</section>
+            <section id=work-content class="work">
+                <section class="work-h2-container">
+                <h2>Work</h2>
+            </section>
 
-<section class="third-project-container">
-    <section
-        class="third-project-overlay"><h3>Third Project</h3>
-    </section>
-        <section id=third-project class="third-project">
-            <button><a href="https://www.disney.com/" id="third-project"><img src="./assets/pexels-matt-hardy-1533720.jpg" class="third-project-img" alt="third-project-img"/></a></button>
-       </section> 
-</section>
+                <!-- below this point i was h3 to overlap image and i want the image to act as a button linked to my horiseon repo -->
+                <!-- added project container to utilize flex properties -->
+                <section class="project-container">
+                <section class="horiseon-project-container">
+                    <section class="horiseon-project-overlay">
+                        <h3>Horiseon Project</h3>
+                    </section>
+                    <section id=horiseon class="horiseon">
+                        <button><a href="https://github.com/LayneNi/Horiseon" id="Horiseon"><img
+                                    src="./assets/Horiseon screenshot.png" class="horiseon-screenshot-img"
+                                    alt="horiseon-screenshot-img" /></a></button>
+                    </section>
+                </section>
+                <!-- second project square here -->
+                <section class="second-project-container">
+                    <section class="second-project-overlay">
+                        <h3>Second Project</h3>
+                    </section>
+                    <section id=second-project class="second-project">
+                        <button><a href="https://www.google.com/" id="second-project"><img
+                                    src="./assets/pexels-matt-hardy-1533720.jpg" class="second-project-img"
+                                    alt="second-project-img" /></a></button>
+                    </section>
+                </section>
 
-<section class="fourth-project-container">
-    <section
-        class="fourth-project-overlay"><h3>Fourth Project</h3>
-    </section>
-        <section id=fourth-project class="fourth-project">
-            <button><a href="https://www.cnn.com/" id="fourth-project"><img src="./assets/wp1909900.jpg" class="fourth-project-img" alt="fourth-project-img"/></a></button>
-       </section> 
-</section>
+                <section class="third-project-container">
+                    <section class="third-project-overlay">
+                        <h3>Third Project</h3>
+                    </section>
+                    <section id=third-project class="third-project">
+                        <button><a href="https://www.disney.com/" id="third-project"><img
+                                    src="./assets/pexels-matt-hardy-1533720.jpg" class="third-project-img"
+                                    alt="third-project-img" /></a></button>
+                    </section>
+                </section>
 
-<section class="fifth-project-container">
-    <section
-        class="fifth-project-overlay"><h3>Fifth Project</h3>
-    </section>
-        <section id=fifth-project class="fifth-project">
-            <button><a href="https://www.yahoo.com" id="fifth-project"><img src="./assets/wp1909900.jpg" class="fifth-project-img" alt="fourth-project-img"/></a></button>
-       </section> 
-</section>
-</section>
+                <section class="fourth-project-container">
+                    <section class="fourth-project-overlay">
+                        <h3>Fourth Project</h3>
+                    </section>
+                    <section id=fourth-project class="fourth-project">
+                        <button><a href="https://www.cnn.com/" id="fourth-project"><img src="./assets/wp1909900.jpg"
+                                    class="fourth-project-img" alt="fourth-project-img" /></a></button>
+                    </section>
+                </section>
 
-<section id="contact-me-content" class="contact-me">
-    <h2>contact-me</h2>
-    <ul>
-        <li>
-            555-555-5555
-        </li>
-        <li><a href="mailto:email@example.com">laynenigro@gmail.com</a>
-        </li>
-        <li>
-            github
-        </li>
-    </ul>
-</section>
+                <section class="fifth-project-container">
+                    <section class="fifth-project-overlay">
+                        <h3>Fifth Project</h3>
+                    </section>
+                    <section id=fifth-project class="fifth-project">
+                        <button><a href="https://www.yahoo.com" id="fifth-project"><img src="./assets/wp1909900.jpg"
+                                    class="fifth-project-img" alt="fourth-project-img" /></a></button>
+                    </section>
+                </section>
+            </section>
+            </section>
 
-<!-- footer -->
-<section class="footer">
-</section>
+            <section id="contact-me-content" class="contact-me">
+                <h2>contact-me</h2>
+                <ul>
+                    <li>
+                        555-555-5555
+                    </li>
+                    <li><a href="mailto:laynenigro@gmail.com">laynenigro@gmail.com</a>
+                    </li>
+                    <li>
+                        github
+                    </li>
+                </ul>
+            </section>
 
- </main>
+            <!-- footer -->
+            <section class="footer">
+            </section>
+
+    </main>
 </body>
+
 </html>
