@@ -24,9 +24,16 @@ body {
  border: solid rgb(117, 117, 122);
 }
 
+.header-img-overlay {
+    float: right;
+    margin-right: 20px;
+    color: #ffffff;
+    font-size: 30px;
+}
+
 .header-bottom{
     width: 1916px;
-    height: 250px;
+    height: 200px;
 }
 
 .header h1 {
@@ -177,6 +184,21 @@ body {
     margin: 20px; */
 }
 
+/* fifth project */
+.fifth-project-container {
+    margin-top: -247px;
+    margin-left: 237px;
+    margin-bottom: 294px;
+}
+
+.fifth-project-img {
+    height: 250px;
+    width: 1050px;
+    /* padding: 20px;
+    margin: 20px; */
+}
+
+
 
 /* below this point i am trying to make h3 show over my horiseon img */
 
@@ -244,22 +266,31 @@ button:focus {
     margin-left: 231px;
 }
 
+.fifth-project-overlay {
+    position: absolute;
+    margin-top: 111px;
+    margin-left: 231px;
+}
+
+
 .footer{
-    /* margin-bottom: 32px; */
-        margin-bottom: 50px;
-        margin-left: 255px;
-        margin-top: 90px;
         padding: 10px;
-        height: 100px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        /* background-color: #011827; */
-        border-left: 6px solid #011827;
-        height: 150px;
-        color: #011827;
+        background-color: #010975;
+        height: 75px;
 }
 
 .contact-me ul{
-    display: flex
+    margin-left: -31px;
+    margin-bottom: 1px;
+    margin-right: 20px;
+    margin-top: -10px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    display: flex;
+    list-style-type: none;
+    color: #010975;
 }
 /* below this point is the media screen deoms from class */
 /*
