@@ -109,7 +109,7 @@ body {
 .work {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-left: 6px solid #011827;
-    height: 1000px;
+    height: 100%;
     color: #011827;
     margin-left: 255px;
 }
@@ -135,7 +135,6 @@ body {
 }
 */
 .contact-me {
-    /* margin-bottom: 32px; */
     margin-bottom: 50px;
     margin-left: 255px;
     margin-top: 90px;
@@ -146,6 +145,8 @@ body {
     border-left: 6px solid #011827;
     height: 150px;
     color: #011827;
+    display: grid;
+    justify-content: normal;
 }
 
 .horiseon-project-container {
@@ -254,32 +255,46 @@ button:focus {
 .horiseon-project-overlay {
     position: absolute;
     margin-top: 111px;
-    margin-left: 231px;
-
+    margin-left: 145px;
+    color: #ffffff;
+    background-color: #011827;
+    padding: 2px;
 }
 
 .second-project-overlay {
     position: absolute;
     margin-top: 111px;
-    margin-left: 231px;
+    margin-left: 145px;
+    color: #ffffff;
+    background-color: #011827;
+    padding: 2px;
 }
 
 .third-project-overlay {
     position: absolute;
     margin-top: 111px;
-    margin-left: 231px;
+    margin-left: 145px;
+    color: #ffffff;
+    background-color: #011827;
+    padding: 2px;
 }
 
 .fourth-project-overlay {
     position: absolute;
     margin-top: 111px;
-    margin-left: 231px;
+    margin-left: 145px;
+    color: #ffffff;
+    background-color: #011827;
+    padding: 2px;
 }
 
 .fifth-project-overlay {
     position: absolute;
     margin-top: 111px;
-    margin-left: 231px;
+    margin-left: 470px;
+    color: #ffffff;
+    background-color: #011827;
+    padding: 2px;
 }
 
 
@@ -290,17 +305,18 @@ button:focus {
         height: 75px;
 }
 
+.work-h2-container{
+    margin-left: 20px;
+}
+
 .contact-me ul{
-    margin-left: -31px;
-    margin-bottom: 1px;
-    margin-right: 20px;
-    margin-top: -10px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
     display: flex;
     list-style-type: none;
     color: #010975;
+    justify-content: space-evenly;
 }
 
 
