@@ -324,7 +324,7 @@ button:focus {
 /* below this point is the media screen deoms from class */
 
 @media screen and (max-width: 992px) {
-    .card {
+    .body {
       width: 50%;
     }
     header {
@@ -332,10 +332,10 @@ button:focus {
     }
   }
 @media screen and (max-width: 768px) {
-    .card {
+    .main-page {
       width: 100%;
     }
-    header {
+    .project-container{
       width: 50%;
     }
   }
