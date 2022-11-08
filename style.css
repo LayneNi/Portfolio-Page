@@ -6,6 +6,8 @@
 
 body {
     background-color: #d8d4ca;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 /* header and begging of page/nav bar */
@@ -117,7 +119,7 @@ body {
 .project-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    margin-left: 13%;
 }
 
 
@@ -149,10 +151,6 @@ body {
     justify-content: normal;
 }
 
-.horiseon-project-container {
-    /* margin-left: 115px; */
-    margin: 35px;
-}
 
 .horiseon-screenshot-img {
     max-height: 250px;
@@ -161,12 +159,13 @@ body {
     /* padding: 20px;
     margin: 20px; */
 }
+
+.horiseon-project-container {
+    flex: 0 0 50%;
+}
 /* second project */
 .second-project-container {
-    margin: 35px;
-    /* margin-top: -198px;
-    margin-left: 900px;
-    margin-bottom: 294px; */
+    flex: 0 0 50%;
 }
 
 .second-project-img {
@@ -178,18 +177,19 @@ body {
 }
 /* third project */
 .third-project-container {
-    margin: 35px;
+    flex: 0 0 50%;
 }
 
 .third-project-img {
     max-height: 250px;
+    width: 426px;
     /* padding: 20px;
     margin: 20px; */
 }
 
 /* fourth project */
 .fourth-project-container {
-    margin: 35px;
+    flex: 0 0 50%;
 }
 
 .fourth-project-img {
@@ -201,7 +201,8 @@ body {
 
 /* fifth project */
 .fifth-project-container {
-    margin: 35px;
+    flex: 0 0 100%;
+    margin-left: 1%;
 }
 
 .fifth-project-img {
@@ -264,7 +265,7 @@ button:focus {
 .second-project-overlay {
     position: absolute;
     margin-top: 111px;
-    margin-left: 145px;
+    margin-left: 126px;
     color: #ffffff;
     background-color: #011827;
     padding: 2px;
@@ -273,7 +274,7 @@ button:focus {
 .third-project-overlay {
     position: absolute;
     margin-top: 111px;
-    margin-left: 145px;
+    margin-left: 156px;
     color: #ffffff;
     background-color: #011827;
     padding: 2px;
@@ -282,7 +283,7 @@ button:focus {
 .fourth-project-overlay {
     position: absolute;
     margin-top: 111px;
-    margin-left: 145px;
+    margin-left: 126px;
     color: #ffffff;
     background-color: #011827;
     padding: 2px;
@@ -327,7 +328,7 @@ button:focus {
       width: 50%;
     }
     header {
-      background: #772014;
+      width: 50%;
     }
   }
 @media screen and (max-width: 768px) {
@@ -335,6 +336,6 @@ button:focus {
       width: 100%;
     }
     header {
-      background: #8ac4ff;
+      width: 50%;
     }
   }
