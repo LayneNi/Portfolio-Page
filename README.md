@@ -8,3 +8,4 @@ Link to deployed site:https://layneni.github.io/Portfolio-Page/
 
 ## Usage
 
+![portfolio-page-screenshot](https://user-images.githubusercontent.com/116680523/200684231-2dda74c3-b2c2-41c2-a63a-1d2b800d085d.png)
